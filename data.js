@@ -1,7 +1,7 @@
 var defaultThreads = [{
         id: 1,
-        title: "Forum",
-        author: "Aaron",
+        title: "Forum 1",
+        author: "user",
         date: Date.now(),
         content: "Thread content",
         comments: [{
