@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252630;
+}
+
+header {
+    background: aliceblue;
+    padding: 20px;
+}
+
+header>h1 {
+    text-align: center;
+    color: #1B3094;
+    font-family: -apple-system, sans-serif;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 200px;
+    color: aliceblue;
+    font-family: -apple-system, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    padding: 15px 10px;
+    position: relative;
+}
+
+.badge {
+    background-color: #D85A64;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: -apple-system, sans-serif;
+    margin: 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 15px;
+    left: -54px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 15px;
+    right: -54px;
+}
+
+.userChoices {
+    position: relative;
+}
+
+#ur {
+    position: absolute;
+    top: -10px;
+    left: -150px;
+    display: none;
+}
+
+#cr {
+    position: absolute;
+    top: -10px;
+    right: -150px;
+    display: none;
+}
+
+#us {
+    position: absolute;
+    top: -10px;
+    left: -150px;
+    display: none;
+}
+
+#cs {
+    position: absolute;
+    top: -10px;
+    right: -150px;
+    display: none;
+}
+
+#up {
+    position: absolute;
+    top: -10px;
+    left: -150px;
+    display: none;
+}
+
+#cp {
+    position: absolute;
+    top: -10px;
+    right: -150px;
+    display: none;
+}
+
+.result {
+    font-size: 45px;
+    color: aliceblue;
+}
+
+.result>p {
+    text-align: center;
+    font-family: -apple-system, sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.choices {
+    margin-top: -20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.choice {
+    border: 4px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 25px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(139, 118, 118);
+    transform: scale(1.1);
+}
+
+.userChoices {
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+#action {
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+    font-family: -apple-system, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.green_glow {
+    border: 10px solid green;
+    box-shadow: 0 0 20px darkgreen;
+}
+
+.red_glow {
+    border: 4px solid red;
+    box-shadow: 0 0 10px maroon;
+}
+
+.grey_glow {
+    border: 4px solid grey;
+    box-shadow: 0 0 10px darkgrey;
+}
+
+.myChart {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.chart-container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+#myChart {
+    position: absolute;
+    top: 0px;
+    right: -1150px;
+}
